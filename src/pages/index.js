@@ -6,7 +6,7 @@ import SEO from "../components/seo"
 
 export default () => (
   <Layout>
-    <SEO title="Adam Holtzman" />
+    <SEO title="Adam Holtzman - Developer" />
     <Wrap>
       <h1>adamholtzman.dev</h1>
     </Wrap>
