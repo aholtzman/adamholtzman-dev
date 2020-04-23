@@ -1,4 +1,4 @@
-name: Deploy site to Cloudflare Workers
+name: Deploy Site to Cloudflare Workers
 on:
   push:
     branches:
