@@ -19,7 +19,8 @@ jobs:
         run: npm run build
       - name: Publish
         uses: cloudflare/wrangler-action@1.1.0
-        USER: root
+        env:
+          USER: root
         with:
           apiKey: ${{ secrets.CF_WORKERS_KEY }}
           email: ${{ secrets.CF_WORKERS_EMAIL }}
