@@ -1,0 +1,10 @@
+name = "adamholtzman-dev"
+type = "webpack"
+account_id = "76f7f7c1d3fc1dbdd0c6b8c550725352"
+
+[env.production]
+workers_dev = true
+
+[site]
+bucket = "./public"
+entry-point = "workers-site"
