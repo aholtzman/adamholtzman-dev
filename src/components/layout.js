@@ -1,10 +1,10 @@
-import React from "react"
-import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
+import React from 'react'
+import PropTypes from 'prop-types'
+import { useStaticQuery, graphql } from 'gatsby'
 
-import "./layout.css"
+import './layout.css'
 
-const Layout = ({ children }) => {
+export default function Layout({ children }) {
   return (
     <>
       <main>{children}</main>
@@ -15,5 +15,3 @@ const Layout = ({ children }) => {
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
 }
-
-export default Layout
