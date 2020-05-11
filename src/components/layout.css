@@ -1,7 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap'); */
+@font-face {
+  font-family: "Inter";
+  /* src: url("../../static/fonts/inter_web/Inter-Regular.woff")   format("woff"); */
+  src: url("../../static/fonts/inter_web/Inter-Light.woff")   format("woff");
+}
 
 html {
-  font-family: 'Major Mono Display', monospace;
+  /* font-family: 'Major Mono Display', monospace; */
+  font-family: "Inter";
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   height: 100%;
