@@ -1,0 +1,13 @@
+backend:
+  name: github
+  repo: aholtzman/adamholtzman-dev
+
+media_folder: static/assets
+public_folder: assets
+collections:
+  - name: test
+    label: "this is a test"
+    folder: "src/items/test"
+    create: true
+    fields:
+      - { label: "testy", name: "test-y", widget: "string" }
