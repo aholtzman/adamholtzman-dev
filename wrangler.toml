@@ -8,3 +8,4 @@ workers_dev = true
 [site]
 bucket = "./public"
 entry-point = "workers-site"
+exclude = ["netlify-cms-app.js.map"]
